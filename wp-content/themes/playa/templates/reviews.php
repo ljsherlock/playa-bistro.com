@@ -1,9 +1,9 @@
 <div id="reviews">
     <div class="row1 flex flex-column flex-row-l">
         <div class="flex flex-column flex-row-ns flex-wrap-ns flex w-100 w-50-l">
-            <img class="w-100 w-50-ns" src="http://playa-bistro.local/wp-content/uploads/2024/06/Group-90.jpg" />
-            <img class="w-100 w-50-ns" src="http://playa-bistro.local/wp-content/uploads/2024/06/Group-91.jpg" />
-            <!-- <img class="w-100 w-50-ns" src="http://playa-bistro.local/wp-content/uploads/2024/06/Group-94.jpg" /> -->
+            <img class="w-100 w-50-ns" src="<?= get_site_url() ?>/wp-content/uploads/2024/06/Group-90.jpg" />
+            <img class="w-100 w-50-ns" src="<?= get_site_url() ?>/wp-content/uploads/2024/06/Group-91.jpg" />
+            <!-- <img class="w-100 w-50-ns" src="<?= get_site_url() ?>/wp-content/uploads/2024/06/Group-94.jpg" /> -->
             <div class="w-100" style="position: relative; height:50%;">
                 <div class="pv-3 flex justify-center" style="width: 100%; height: 100%; background: #034044;">
                     <div style=" flex-direction: column; justify-content: center; align-items: center; gap: 12px; display: inline-flex; height: 100%; padding: 0 32px; max-width: 550px;">
@@ -30,12 +30,12 @@
             </div>
         </div>
         <div id="single" class="w-100 w-50-l">
-            <img src="http://playa-bistro.local/wp-content/uploads/2024/06/Rectangle-47.jpg" style="width: 100%; height: 100%;" />
+            <img src="<?= get_site_url() ?>/wp-content/uploads/2024/06/Rectangle-47.jpg" style="width: 100%; height: 100%;" />
         </div>
     </div>
     <div class="row2 flex flex-column flex-row-l">
         <div id="single" class="w-100 w-50-l">
-            <img src="http://playa-bistro.local/wp-content/uploads/2024/06/Rectangle-45.jpg" style="width: 100%; height: 100%;" />
+            <img src="<?= get_site_url() ?>/wp-content/uploads/2024/06/Rectangle-45.jpg" style="width: 100%; height: 100%;" />
         </div>
         <div class="flex flex-column flex-row-ns flex-wrap-ns flex w-100 w-50-l">
             <div class="w-100" style="position: relative;  height:50%;">
@@ -62,9 +62,9 @@
                     </div>
                 </div>
             </div>
-            <!-- <img src="http://playa-bistro.local/wp-content/uploads/2024/06/Group-99.jpg" class="w-100 w-50-ns" /> -->
-            <img src="http://playa-bistro.local/wp-content/uploads/2024/06/view-outside.jpg" class="w-100 w-50-ns" />
-            <img src="http://playa-bistro.local/wp-content/uploads/2024/06/Group-98.jpg" class="w-100 w-50-ns" />
+            <!-- <img src="<?= get_site_url() ?>/wp-content/uploads/2024/06/Group-99.jpg" class="w-100 w-50-ns" /> -->
+            <img src="<?= get_site_url() ?>/wp-content/uploads/2024/06/view-outside.jpg" class="w-100 w-50-ns" />
+            <img src="<?= get_site_url() ?>/wp-content/uploads/2024/06/Group-98.jpg" class="w-100 w-50-ns" />
         </div>
     </div>
 </div>
