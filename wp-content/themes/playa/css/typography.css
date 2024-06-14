@@ -1,0 +1,207 @@
+
+
+/* Font Size */
+.f7 {
+    font-size: 1.1rem; /* 16px */
+}
+.f6 {
+    font-size: 0.75rem; /* 12px */
+}
+.f5 {
+    font-size: 0.875rem; /* 14px */
+}
+.f4 {
+    font-size: 1rem; /* 16px */
+}
+.f3 {
+    font-size: 1.1rem; /* 16px */
+}
+.f2 {
+    font-size: 1.5rem; /* 32px */
+}
+.f1 {
+    font-size: 4rem; /* 64px */
+}
+
+@media screen and (min-width: 30em) {
+    /* Font Size */
+    .f7 {
+        font-size: 1.3rem; /* 16px */
+    }
+    .f6 {
+        font-size: 0.75rem; /* 12px */
+    }
+    .f5 {
+        font-size: 0.875rem; /* 14px */
+    }
+    .f4 {
+        font-size: 1rem; /* 16px */
+    }
+    .f3 {
+        font-size: 1.1rem; /* 16px */
+    }
+    .f2 {
+        font-size: 2rem; /* 32px */
+    }
+    .f1 {
+        font-size: 4rem; /* 64px */
+    }
+}
+
+
+
+
+/* Line Height */
+.lh-solid {
+    line-height: 1;
+}
+.lh-copy {
+    line-height: 1.5;
+}
+.lh-title {
+    line-height: 1.2;
+}
+
+/* Font family */
+
+@import url('https://fonts.googleapis.com/css2?family=Numans&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.numans {
+    font-family: "Numans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.raleway {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* COLOR */
+
+.h1hl2-dark-bue {
+    color: var(--h1hl2-dark-bue);
+}
+.primary-dark-blue {
+    color: var(--primary-dark-blue);
+}
+.primary-white {
+    color: var(--primary-white);
+}
+.foam {
+    color: var(--foam);
+}
+.nevada {
+    color: var(--nevada);
+}
+.blue-charcoal {
+    color: var(--blue-charcoal);
+}
+
+.picton-blue {
+    color: var(--picton-blue);
+} 
+
+.button-primary {
+    background: rgba(9, 214, 228, .75);
+}
+.button-secondary {
+    background: rgba(230, 251, 252, .75);
+}
+
+.letter-link {
+    letter-spacing: 0.4px;
+}
+.letter-title {
+    letter-spacing: 20px;
+}
+.letter-sub-title {
+    letter-spacing: 15px;
+}
+
+.lp1 {
+    letter-spacing: 4px;
+}
+.lp2 {
+    letter-spacing: 8px;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+/*
+
+   FONT WEIGHT
+
+*/
+.normal { font-weight: normal; }
+.b { font-weight: bold; }
+.fw1 { font-weight: 100; }
+.fw2 { font-weight: 200; }
+.fw3 { font-weight: 300; }
+.fw4 { font-weight: 400; }
+.fw5 { font-weight: 500; }
+.fw6 { font-weight: 600; }
+.fw7 { font-weight: 700; }
+.fw8 { font-weight: 800; }
+.fw9 { font-weight: 900; }
+@media screen and (min-width: 30em) {
+ .normal-ns { font-weight: normal; }
+ .b-ns { font-weight: bold; }
+ .fw1-ns { font-weight: 100; }
+ .fw2-ns { font-weight: 200; }
+ .fw3-ns { font-weight: 300; }
+ .fw4-ns { font-weight: 400; }
+ .fw5-ns { font-weight: 500; }
+ .fw6-ns { font-weight: 600; }
+ .fw7-ns { font-weight: 700; }
+ .fw8-ns { font-weight: 800; }
+ .fw9-ns { font-weight: 900; }
+}
+@media screen and (min-width: 30em) and (max-width: 60em) {
+ .normal-m { font-weight: normal; }
+ .b-m { font-weight: bold; }
+ .fw1-m { font-weight: 100; }
+ .fw2-m { font-weight: 200; }
+ .fw3-m { font-weight: 300; }
+ .fw4-m { font-weight: 400; }
+ .fw5-m { font-weight: 500; }
+ .fw6-m { font-weight: 600; }
+ .fw7-m { font-weight: 700; }
+ .fw8-m { font-weight: 800; }
+ .fw9-m { font-weight: 900; }
+}
+@media screen and (min-width: 60em) {
+ .normal-l { font-weight: normal; }
+ .b-l { font-weight: bold; }
+ .fw1-l { font-weight: 100; }
+ .fw2-l { font-weight: 200; }
+ .fw3-l { font-weight: 300; }
+ .fw4-l { font-weight: 400; }
+ .fw5-l { font-weight: 500; }
+ .fw6-l { font-weight: 600; }
+ .fw7-l { font-weight: 700; }
+ .fw8-l { font-weight: 800; }
+ .fw9-l { font-weight: 900; }
+}
+
+.center {
+    text-align: center;
+}
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+    .t-align-left-m {
+        text-align: left;
+    }
+}
+@media screen and (min-width: 60em) {
+    .t-align-left-l {
+        text-align: left;
+    }
+}
+
+.white {
+    color: var(--white);
+}

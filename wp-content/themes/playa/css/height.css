@@ -1,0 +1,61 @@
+
+/* -------------- HEIGHT -------------- */
+
+.height-1 {
+    height: calc(100vh - var(--spacing-1) );
+}
+.height-2 {
+    height: calc(100vh - var(--spacing-2) );
+}
+.height-3 {
+    height: calc(100vh - var(--spacing-3) );
+}
+.height-4 {
+    height: calc(100vh - var(--spacing-4) );
+}
+.height-5 {
+    height: calc(100vh - var(--spacing-5) );
+}
+.height-6 {
+    height: calc(100vh - var(--spacing-6) );
+}
+.height-7 {
+    height: calc(100vh - var(--spacing-7) );
+}
+.height-8 {
+    height: calc(100vh - var(--spacing-8) );
+}
+
+.height-50vh {
+    height:50vh;
+}
+.height-100vh {
+    height: 100vh;
+}
+
+@media screen and (min-width: 30em) {
+    .height-50vh-ns {
+        height:50vh;
+    }
+    .height-100vh-ns {
+        height: 100vh;
+    }
+}
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+    .height-50vh-m {
+        height: 50vh;
+    }
+    .height-100vh-m {
+        height: 100vh;
+    }
+}
+
+@media screen and (min-width: 60em) {
+    .height-50vh-l {
+        height: 50vh;
+    }
+    .height-100vh-l {
+        height: 100vh;
+    }
+}

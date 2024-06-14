@@ -1,0 +1,9 @@
+@keyframes slideAboveWindow {
+    0% { top: 0px }
+    100% { top: -20vh }
+}
+
+@keyframes slideBelowWindow {
+    0% { top: -20vh }
+    100% { top: 0px }
+}

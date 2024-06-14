@@ -1,0 +1,22 @@
+
+.bg-primary-bg {
+    background: var(--primary-bg);
+}
+.bg-primary-blue {
+    background-color: var(--primary-blue-deep);
+}
+.bg-primary-white {
+    background: var(--primary-white);
+}
+.bg-niagara {
+    background-color: var(--niagara);
+}
+.bg-ebb {
+    background-color: var(--ebb);
+}
+.bg-bright-turquoise {
+    background-color: var(--bright-turquoise);
+}
+.bg-none {
+    background: transparent;
+}

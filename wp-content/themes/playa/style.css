@@ -1,0 +1,78 @@
+/*
+Theme Name: Playa
+Author: Sherlock Studios
+Author URI: https://ljsherlock.com
+Description: The Playa Design
+Requires at least: 6.4
+Tested up to: 6.5
+Requires PHP: 7.0
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: sherlcokstudios
+*/
+
+@import url('css/body.css');
+
+@import url('css/reset.css');
+
+@import url('css/display.css');
+@import url('css/position.css');
+
+@import url('css/coordinates.css');
+
+@import url('css/width.css');
+@import url('css/height.css');
+
+@import url('css/spacing.css');
+
+@import url('css/typography.css');
+
+@import url('css/background.css');
+@import url('css/background-position.css');
+@import url('css/background-size.css');
+
+@import url('css/flexbox.css');
+
+@import url('css/keyframes.css');
+
+@import url('css/borders.css');
+@import url('css/shadow.css');
+@import url('css/opacity.css');
+
+
+.b-primary-dark-blue {
+    border-color: var(--primary-dark-blue);
+}
+/* used by navbar and footer. */
+.b-light-blue {
+    border-color: var(--light-blue);
+}
+
+
+
+#primarySiteMenu[data-state="hide"], 
+#primaryMenu[data-state="hide"] {
+    animation-name: slideAboveWindow;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+}
+
+#primarySiteMenu[data-state="show"],
+#primaryMenu[data-state="show"] {
+    animation-name: slideBelowWindow;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in;
+}
+
+/*  SITE HEADER.  */
+
+.site-header--content {
+    max-width: 540px;
+}
+
+.site-header--content > * {
+    width: 100%;
+}
