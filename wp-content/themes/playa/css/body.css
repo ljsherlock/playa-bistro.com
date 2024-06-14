@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    --white: #FFFFFF;
+    --testimonial-tag-opacity: 0.4;
+    --overlay-bg-opacity:0.2;
+    --star-yellow: #FFF555;
+    --primary-bg: #E9E7E5;
+    --primary-white: #E6FBFC;
+    --light-blue: #B5F3F7;
+    --primary-blue: #6BE6EF;
+    --primary-blue-deep: #09D6E4;
+    --h3-blue: #45A3E0;
+    --primary-paralax-overlay: #0696A0;
+    --primary-dark-blue: #04565B;
+    --testimonial-bg: #034044;
+    --h1hl2-dark-bue: #011517;
+    --primary-black: #000000;
+    
+    --foam: #E6FBFC;
+    --picton-blue: #45A3E0;
+    --bright-turquoise: #09D6E4;
+    --niagara: #0696A0;
+    --ebb: #E9E7E5;
+    --nevada: #687171;
+    --blue-charcoal: #011517;
+
+    --spacing-1: 8px;
+    --spacing-2: 16px;
+    --spacing-3: 24px;
+    --spacing-4: 32px;
+    --spacing-5: 40px;
+    --spacing-6: 48px;
+    --spacing-7: 56px;
+    --spacing-8: 64px;
+}
+
+body * {
+    text-decoration: none;
+}
