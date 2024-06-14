@@ -10,7 +10,7 @@
   cover
   bb-3
   b-bright-turquoise
-" style="background-image: url(http://playa-bistro.local/wp-content/uploads/2024/06/playa-header-bg.jpg);">  
+" style="background-image: url(<?= get_site_url() ?>/wp-content/uploads/2024/06/playa-header-bg.jpg);">  
   <div class="site-header--content mh-4">
     <svg id="playaheaderlogo" viewBox="0 0 446 178" fill="none" xmlns="http://www.w3.org/2000/svg">
   <g filter="url(#filter0_d_166_2)">

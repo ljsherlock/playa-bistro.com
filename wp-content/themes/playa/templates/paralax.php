@@ -12,7 +12,7 @@
   cover
   bb-3
   b-bright-turquoise
-" style="background-attachment: fixed; background-image: url(http://playa-bistro.local/wp-content/uploads/2024/06/playa-header-bg.jpg);">  
+" style="background-attachment: fixed; background-image: url(<?= get_site_url() ?>/wp-content/uploads/2024/06/playa-header-bg.jpg);">  
   <div class="absolute absolute--fill bg-niagara opacity-5 zindex-1"></div>
   <div class="mh-4 zindex-2 mw-m" stlye="max-width: 1440px">
       <h2 class="f2 center numans fw1 foam t-shadow-1">
