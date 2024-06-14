@@ -61,7 +61,7 @@
     </svg>
     <div class="flex mv-2 gap-1 gap-3-ns flex-column flex-row-ns">
 
-        <a href="#menu" class="
+        <!-- <a href="#menu" class="
           pv-3
           ph-4
           h1hl2-dark-bue 
@@ -78,8 +78,8 @@
           t-shadow-1
           b-shadow-1
           fw5
-        ">View Menu</a>
-        <a 
+        ">View Menu</a> -->
+        <!-- <a 
           href="#book" 
           class="
           pv-3
@@ -99,7 +99,28 @@
           t-shadow-1
           b-shadow-1
           fw5
+        ">Book a Table</a> -->
+        <a 
+          href="#book" 
+          class="
+          pv-3
+          ph-4
+          h1hl2-dark-bue 
+          button-secondary 
+
+          w-100 
+          raleway 
+          f3 
+          lh-solid 
+          uppercase 
+          ba 
+          b-h1h2-dark-blue 
+          center
+          t-shadow-1
+          b-shadow-1
+          fw5
         ">Book a Table</a>
+
 
     </div>
     <p class="f7 t-shadow-1 raleway primary-white center lh-copy">The no.1 beach-front cafe, bistro and lounge in Pattaya, with an extensive Thai and European food and drinks menu.</p>
